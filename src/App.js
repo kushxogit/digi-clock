@@ -7,13 +7,15 @@ function App() {
   const [cDate, setcDate] = useState(new Date().toLocaleDateString());
 
   useEffect(() => {
-    const interval = setInterval(() => {
+    setInterval(() => {
       const currentTime = new Date().toLocaleTimeString();
+      const date = new Date().toLocaleDateString();
       setCtime(currentTime);
+      setcDate(date)
     }, 1000);
   }, []);
 
-  const date = new Date().toLocaleDateString();
+  
 
   console.log(date);
 
