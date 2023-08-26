@@ -15,9 +15,6 @@ function App() {
     }, 1000);
   }, []);
 
-  
-
-  console.log(date);
 
   return (
     <>
