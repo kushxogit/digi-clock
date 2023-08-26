@@ -19,8 +19,10 @@ function App() {
 
   return (
     <>
-      <h1 style={{ fontSize: '230px', color: '#815854', textAlign: 'center', marginTop: '30vh' }}>{cTime}</h1>
-      <h1 style={{ fontSize: '100px', color: '#815854', textAlign: 'center' }}>{cDate}</h1>
+      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+        <h1 style={{ fontSize: '230px', color: '#815854', textAlign: 'center', marginTop: '27vh', marginBottom: '-80px' }}>{cTime}</h1>
+        <h1 style={{ fontSize: '110px', color: '#815854', textAlign: 'center', marginLeft: '20px' }}>{cDate}</h1>
+      </div>
     </>
   );
 }
